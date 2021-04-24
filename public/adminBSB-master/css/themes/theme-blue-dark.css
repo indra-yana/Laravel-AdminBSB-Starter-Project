@@ -1,0 +1,153 @@
+﻿.theme-blue-dark .navbar {
+    background-color: #025287;
+}
+
+.theme-blue-dark .navbar-brand {
+    color: #fff;
+}
+
+.theme-blue-dark .navbar-brand:hover {
+    color: #fff;
+}
+
+.theme-blue-dark .navbar-brand:active {
+    color: #fff;
+}
+
+.theme-blue-dark .navbar-brand:focus {
+    color: #fff;
+}
+
+.theme-blue-dark .nav>li>a {
+    color: #fff;
+}
+
+.theme-blue-dark .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.theme-blue-dark .nav>li>a:focus {
+    background-color: transparent;
+}
+
+.theme-blue-dark .nav .open>a {
+    background-color: transparent;
+}
+
+.theme-blue-dark .nav .open>a:hover {
+    background-color: transparent;
+}
+
+.theme-blue-dark .nav .open>a:focus {
+    background-color: transparent;
+}
+
+.theme-blue-dark .bars {
+    color: #fff;
+}
+
+.theme-blue-dark .sidebar .menu .list li.active {
+    background-color: transparent;
+}
+
+.theme-blue-dark .sidebar .menu .list li.active> :first-child i,
+.theme-blue-dark .sidebar .menu .list li.active> :first-child span {
+    color: #025287;
+}
+
+.theme-blue-dark .sidebar .menu .list .toggled {
+    background-color: transparent;
+}
+
+.theme-blue-dark .sidebar .menu .list .ml-menu {
+    background-color: transparent;
+}
+
+.theme-blue-dark .sidebar .legal {
+    background-color: #025287;
+}
+
+.theme-blue-dark .sidebar .legal .version {
+    color: #fff !important;
+}
+
+.theme-blue-dark .sidebar .legal .copyright {
+    color: #fff !important;
+}
+
+.theme-blue-dark .sidebar .legal .copyright a {
+    color: #a9a9a9 !important;
+}
+
+.card .header {
+    background-color: #025287;
+}
+
+.card .header h2 {
+    color: #fff !important;
+}
+
+.card .body {
+    background-color: #eee;
+}
+
+.sidebar {
+    background-color: #eee;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.modal .modal-header {
+    background-color: #025287;
+    padding: 25px 25px 25px 25px
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal .modal-content .modal-body {
+    background-color: #eee;
+}
+
+.thumbnail {
+    background-color: #eee;
+}
+
+.modal .modal-footer {
+    background-color: #025287;
+}
+
+html {
+    background-color: #a9a9a9;
+}
+
+body {
+    background-color: #a9a9a9;
+}
+
+.sidebar .menu .list .header {
+    background-color: #a9a9a9;
+    text-align: center;
+}
+
+.block-header h2 {
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: 1;
+}
+
+.close:hover {
+    color: #a9a9a9;
+}
+
+.div.dt-button-collection button.dt-button,
+div.dt-button-collection div.dt-button,
+div.dt-button-collection a.dt-button {
+    background-color: #a9a9a9;
+}
