@@ -71,14 +71,14 @@ secret
 - [box/spout:3.1](https://opensource.box.com/spout/docs/)
 
 ## Screenshots
-[![Screenshot](public/adminBSB-master/images/screenshot/ss-1.png)](#)
+[![Screenshot](public/adminBSB-master/images/screenshot/ss-1.PNG)](#)
 
-[![Screenshot](public/adminBSB-master/images/screenshot/ss-2.png)](#)
+[![Screenshot](public/adminBSB-master/images/screenshot/ss-2.PNG)](#)
 
-[![Screenshot](public/adminBSB-master/images/screenshot/ss-3.png)](#)
+[![Screenshot](public/adminBSB-master/images/screenshot/ss-3.PNG)](#)
 
-[![Screenshot](public/adminBSB-master/images/screenshot/ss-4.png)](#)
+[![Screenshot](public/adminBSB-master/images/screenshot/ss-4.PNG)](#)
 
-[![Screenshot](public/adminBSB-master/images/screenshot/ss-5.png)](#)
+[![Screenshot](public/adminBSB-master/images/screenshot/ss-5.PNG)](#)
 
-[![Screenshot](public/adminBSB-master/images/screenshot/ss-6.png)](#)
+[![Screenshot](public/adminBSB-master/images/screenshot/ss-6.PNG)](#)
