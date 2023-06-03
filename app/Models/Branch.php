@@ -27,7 +27,7 @@ class Branch extends Model
     }
 
     public function user() {
-        return $this->belongsToMany(\App\User::class, 'users_branches', 'id_branch', 'id_user')->withTimestamps();
+        return $this->belongsToMany(\App\Models\User::class, 'users_branches', 'id_branch', 'id_user')->withTimestamps();
     }
 
 }

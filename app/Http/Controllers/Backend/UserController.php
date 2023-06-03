@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Validator;
 use Auth;
 use Carbon;
-use App\User;
+use App\Models\User;
 use App\Models\Branch;
 use Illuminate\Support\Str;
 use Spatie\Permission\Models\Permission;
