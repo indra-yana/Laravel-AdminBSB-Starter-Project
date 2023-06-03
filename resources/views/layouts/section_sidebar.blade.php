@@ -83,6 +83,13 @@
                 </li>
                 @endif
 
+                <li class="{{ request()->routeIs('template.*') ? 'active' : '' }}">
+                    <a href="{{ route('adminBSB.dashboard') }}">
+                        <i class="material-icons">widgets</i>
+                        <span>Templates (Resources)</span>
+                    </a>
+                </li>
+
             </ul>
         </div>
         <!-- #Menu -->

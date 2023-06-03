@@ -16,7 +16,7 @@ Route::group(['prefix' => 'template'], function () {
     // DASHBOARD
     Route::get('/', function () {
         return view('adminBSB-example/dashboard.index');
-    })->name('adminBSB.dashboard.index');
+    })->name('adminBSB.dashboard');
     
     // DASHBOARD
     Route::get('dashboard', function () {
