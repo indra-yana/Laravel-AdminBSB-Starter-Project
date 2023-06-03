@@ -14,7 +14,6 @@ class PermissionController extends Controller {
     protected $tableNames;
     
     public function __construct() {
-        $this->middleware('auth', ['except' => []]);
         $this->tableNames = config('permission.table_names');
     }
 

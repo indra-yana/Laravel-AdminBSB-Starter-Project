@@ -169,8 +169,8 @@
                 },
                 { data: 'id', name: 'id', width: '5%', className: 'text-center',
                     render: function (data, type, row) {
-                        var actPermission   = " <a href='/users/"+data+"/permission' class='btn btn-info btn-xs waves-effect' title='Add Permissions'><i class='material-icons'>accessibility</i></a>";
-                        var actRole   = " <a href='/users/"+data+"/role' class='btn bg-indigo btn-xs waves-effect' title='Add Roles'><i class='material-icons'>accessible</i></a>";
+                        var actPermission   = " <a href='users/"+data+"/permission' class='btn btn-info btn-xs waves-effect' title='Add Permissions'><i class='material-icons'>accessibility</i></a>";
+                        var actRole   = " <a href='users/"+data+"/role' class='btn bg-indigo btn-xs waves-effect' title='Add Roles'><i class='material-icons'>accessible</i></a>";
                         
                         return actPermission +actRole;
                     }
@@ -179,7 +179,7 @@
                     render: function (data, type, row) {
                         var disabled = data == '{{ Auth::user()->id }}' ? 'disabled' : '';
 
-                        var actEdit   = " <a href='/users/"+data+"/edit' class='btn btn-warning btn-xs waves-effect' title='Edit'><i class='material-icons'>mode_edit</i></a>";
+                        var actEdit   = " <a href='users/"+data+"/edit' class='btn btn-warning btn-xs waves-effect' title='Edit'><i class='material-icons'>mode_edit</i></a>";
                         var actDelete = " <button id='delete-button' data-id='"+data+"' class='btn btn-danger btn-xs waves-effect delete' title='Delete' "+disabled+"><i class='material-icons'>delete</i></button>";
                         var actIsActive = is_active(row, disabled);
                         

@@ -126,7 +126,7 @@
                 { data: 'name', name: 'name', width: '10%', defaultContent: 'N/A'},
                 { data: 'id', name: 'id', width: '5%', className: 'text-center',
                     render: function (data, type, row) {
-                        var actEdit   = " <a href='/permissions/"+data+"/edit' class='btn btn-warning btn-xs waves-effect' title='Edit'><i class='material-icons'>mode_edit</i></a>";
+                        var actEdit   = " <a href='permissions/"+data+"/edit' class='btn btn-warning btn-xs waves-effect' title='Edit'><i class='material-icons'>mode_edit</i></a>";
                         var actDelete = " <button id='delete-button' data-id='"+data+"' class='btn btn-danger btn-xs waves-effect delete' title='Delete'><i class='material-icons'>delete</i></button>";
                         
                         return actEdit + actDelete;
