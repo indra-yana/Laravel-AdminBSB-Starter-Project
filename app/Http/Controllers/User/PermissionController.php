@@ -19,11 +19,11 @@ class PermissionController extends Controller {
     }
 
     public function index() {
-        return view('backend.permission.index');
+        return view('permission.index');
     }
 
     public function create() {
-        return view('backend.permission.create');
+        return view('permission.create');
     }
 
     public function store(Request $request) {
@@ -58,7 +58,7 @@ class PermissionController extends Controller {
     public function edit($id) {
         $permission = Permission::findOrFail($id);
 
-        return view('backend.permission.edit', compact('permission'));
+        return view('permission.edit', compact('permission'));
     }
 
     public function update(Request $request) {

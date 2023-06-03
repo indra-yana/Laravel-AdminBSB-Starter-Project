@@ -19,11 +19,11 @@ class RoleController extends Controller {
     }
 
     public function index() {
-        return view('backend.role.index');
+        return view('role.index');
     }
 
     public function create() {
-        return view('backend.role.create');
+        return view('role.create');
     }
 
     public function store(Request $request) {
@@ -58,7 +58,7 @@ class RoleController extends Controller {
     public function edit($id) {
         $role = Role::findOrFail($id);
 
-        return view('backend.role.edit', compact('role'));
+        return view('role.edit', compact('role'));
     }
 
     public function update(Request $request) {

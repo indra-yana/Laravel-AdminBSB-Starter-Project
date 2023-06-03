@@ -25,13 +25,13 @@ class UserController extends Controller
 
     public function index()
     {
-        return view('backend.user.index');
+        return view('user.index');
     }
 
     public function create() {
         $branches = Branch::all();
 
-        return view('backend.user.create', compact('branches'));
+        return view('user.create', compact('branches'));
     }
 
     public function store(Request $request) {
@@ -78,7 +78,7 @@ class UserController extends Controller
         $user = User::findOrFail($id);
         $branches = Branch::all();
 
-        return view('backend.user.edit', compact('user', 'branches'));
+        return view('user.edit', compact('user', 'branches'));
     }
 
     public function update(Request $request) {
@@ -178,7 +178,7 @@ class UserController extends Controller
             $query->where('model_id', $user->id);
         })->get();
 
-        return view('backend.user.permission', compact('user', 'permissions'));
+        return view('user.permission', compact('user', 'permissions'));
     }
 
     public function storePermission(Request $request) {
@@ -232,7 +232,7 @@ class UserController extends Controller
             $query->where('model_id', $user->id);
         })->get();
 
-        return view('backend.user.role', compact('user', 'roles'));
+        return view('user.role', compact('user', 'roles'));
     }
 
     public function storeRole(Request $request) {

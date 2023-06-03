@@ -19,11 +19,11 @@ class BranchController extends Controller
 
     public function index()
     {
-        return view('backend.branch.index');
+        return view('branch.index');
     }
 
     public function create() {
-        return view('backend.branch.create');
+        return view('branch.create');
     }
 
     public function store(Request $request) {
@@ -64,7 +64,7 @@ class BranchController extends Controller
     public function edit($id) {
         $branch = Branch::findOrFail($id);
 
-        return view('backend.branch.edit', compact('branch'));
+        return view('branch.edit', compact('branch'));
     }
 
     public function update(Request $request) {
