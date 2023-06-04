@@ -1,8 +1,8 @@
 ## Laravel with Admin BSB admin template for starter project
 
-This project using Laravel Framework version 5.8 and Admin BSB template. this is a starter project with some basic features.
+This project using Laravel Framework version 8.65 and Admin BSB template. this is a starter project with some basic features.
 
-## Modules:
+## Modules ? Menus:
 
 - Simple Dashboard
 - Branches Management
@@ -10,6 +10,7 @@ This project using Laravel Framework version 5.8 and Admin BSB template. this is
   - Roles
   - Permissions
   - Users
+- Tempplates
 
 ## Features:
 
@@ -20,11 +21,11 @@ This project using Laravel Framework version 5.8 and Admin BSB template. this is
 
 ## Pre Requirement
 
-- PHP >= 7.2
-- Web server XAMPP or recomended using [Laravel Homestead](https://laravel.com/docs/5.8/homestead)
+- PHP >= 7.3|^8.0
+- Web server XAMPP or recomended using [Laravel Homestead](https://laravel.com/docs/8.x/homestead)
 - Composer version 1.10.X
 - To avoid error when installing package: Try increasing the memory_limit in your php.ini file (ex. /etc/php5/cli/php.ini for Debian-like or windows C:\Program Files\PHP\php-7.X\php.ini) for more information click [here](https://getcomposer.org/doc/articles/troubleshooting.md#memory-limit-errors)
-- For complete server requirment about laravel 5.8 please go to official page: click [here](https://laravel.com/docs/5.8#server-requirements).
+- For complete server requirment about laravel 8.65 please go to official page: click [here](https://laravel.com/docs/8.65#server-requirements).
 
 ## How to install
 
@@ -33,7 +34,7 @@ This project using Laravel Framework version 5.8 and Admin BSB template. this is
 - Run ``` composer install ```
 - Start service MySQL on XAMPP
 - Create database on PHPMyAdmin
-- Copy .env.example with command ``` cp .env.example .env ```
+- Copy .env.example with command ``` cp .env.example .env ``` using git bash command
 - Setup database on .env file
 - Example:
     - DB_CONNECTION=mysql
@@ -54,21 +55,21 @@ and treat me a cup of coffee :coffee: :ok_hand:.
 
 ## User Admin Login
 **Email:**
+```bash
 admin@laravel.com
+```
 **Password:**
+```bash
 secret
+```
 
 ## Credits
 
 - [Admin BSB Template](https://github.com/gurayyarar/AdminBSBMaterialDesign)
-- [spatie/laravel-activitylog:3.9.1](https://spatie.be/docs/laravel-activitylog/v3/introduction)
-- [spatie/laravel-backup:5.0.0](https://spatie.be/docs/laravel-backup/v5/introduction)
-- [spatie/laravel-permission:3.17.0](https://spatie.be/docs/laravel-permission/v3/introduction)
+- [spatie/laravel-activitylog:3.x](https://spatie.be/docs/laravel-activitylog/v3/introduction)
+- [spatie/laravel-permission:5.x](https://spatie.be/docs/laravel-permission/v3/introduction)
 - [yajra/laravel-datatables-oracle:9.0](https://yajrabox.com/docs/laravel-datatables/master/installation)
-- [intervention/image:2.5](http://image.intervention.io)
-- [hisorange/browser-detect:3.0](https://github.com/hisorange/browser-detect)
-- [maatwebsite/excel:3.1](https://docs.laravel-excel.com/3.1/getting-started/)
-- [box/spout:3.1](https://opensource.box.com/spout/docs/)
+- [hisorange/browser-detect:4.x](https://github.com/hisorange/browser-detect)
 
 ## Screenshots
 [![Screenshot](public/adminBSB-master/images/screenshot/ss-1.PNG)](#)
