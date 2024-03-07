@@ -3,6 +3,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Branch;
+use Illuminate\Support\Facades\DB;
 
 class BranchTableSeeder extends Seeder
 {
